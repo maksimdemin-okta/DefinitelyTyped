@@ -848,7 +848,7 @@ export interface UnlinkAccountsResponse {
 export interface LinkAccountsParams {
     user_id: string;
     connection_id?: string | undefined;
-    provider?: string | undefined;
+    provider: string;
 }
 
 export interface Token {
